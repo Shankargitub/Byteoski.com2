@@ -1,0 +1,2661 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ 
+.first {
+    text-align: center;
+    position: absolute;
+    top: 220%;
+    left: 50%;  
+    color: black;  
+    font-size:50px; 
+    font-family: sans-serif;
+}  
+.wrap{
+    display: flex;
+} 
+.fruits{
+  position: relative; 
+  left: 15%; 
+  top:1750px;
+}
+.card {
+    position: relative;  
+    left: 20%;  
+    top: 1780px;
+    background: url("image1.jpeg");
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+.content {   
+
+    width: 100%;
+      background: white;
+      padding: 16px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transform-style: preserve-3d;
+      transform: translatez(20px); 
+
+  } 
+  .location {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location-name{
+    position:relative; 
+    top:130px;  
+    left: 20px; 
+    gap: 15px;
+   
+}   
+.location-name span{ 
+    background-color: #4CAF50; 
+    position: relative; 
+    top: 12px; 
+    left: 5px;
+}
+.custom-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:95px; 
+    left: 70px;
+  } 
+ .nam46 {
+  position: relative; 
+  top:-25px; 
+  left: 110%;
+  }  
+  .name1{
+    position: relative; 
+    top: 15px;
+  }
+  
+ 
+.price1 { 
+    text-align: left;
+    position: relative;
+    top: 150px;
+    display: flex;
+    gap: 10px;
+    left:-140px;
+  } 
+  .price{
+    color: red;
+  }
+  
+  .crossed {
+    text-decoration: line-through;
+    position: relative;
+   
+  }
+   
+  .card2 {
+    position: relative;  
+    left: 45%;  
+    top: 1590px;
+    background: url("Apple-joeg.jpeg");
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location2 {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location3{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv{ 
+ background-color: #4CAF50;
+    display: flex; 
+    position: relative; 
+    top: 38px; 
+    gap: 10px; 
+
+}  
+.nam47 {
+    position: relative; 
+    top:-10px; 
+    left: 110%;
+    }
+.name46{
+    position: relative; 
+    top: 30px;
+}
+.custom-button1 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:105px; 
+    left: 70px;
+  }
+  
+.price3 { 
+    text-align: left;
+    position: relative;
+    top: 165px;
+    display: flex;
+    gap: 10px;
+    left:-120px;
+  } 
+  .price4{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }
+   
+  .card3{
+    position: relative;  
+    left: 70%;  
+    top: 1385px;
+    background: url("Watermelon-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+.content {   
+
+    width: 100%;
+      background: white;
+      padding: 16px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transform-style: preserve-3d;
+      transform: translatez(20px); 
+
+  } 
+  .location5 {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location6{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv1{ 
+    background-color:#4CAF50;
+    display: flex; 
+    position: relative; 
+    top: 36px; 
+    gap: 10px; 
+
+}  
+.name48 {
+    position: relative; 
+    top:30px; 
+    left: 1%;
+    }
+.name49{
+    position: relative; 
+    top: -9px; 
+    left: 110%; 
+    
+}
+.custom-button2 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:105px; 
+    left: 70px;
+  }
+  
+.price5 { 
+    text-align: left;
+    position: relative;
+    top: 170px;
+    display: flex;
+    gap: 10px;
+    left:-120px;
+  } 
+  .price6{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }
+  .card4{
+    position: relative;  
+    left: 20%;  
+    top:1550px;
+    background: url("Banana-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location5 {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location6{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv2{ 
+    background-color:#4CAF50;
+   display: flex;
+    position: relative; 
+    top: 200px; 
+    
+    left:-55px; 
+    gap: 15px;
+
+}  
+.name50 {
+    position: relative; 
+    top:200px; 
+    left: -70%;
+    }
+.name51{
+    position: relative; 
+    top: 160px; 
+    left:20%; 
+    
+}
+.custom-button3 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price7 { 
+    text-align: left;
+    position: relative;
+    top: 120px;
+    display: flex;
+    gap: 10px;
+    left:-65px;
+  } 
+  .price8{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }
+   
+  
+  .card5{
+    position: relative;  
+    left: 45%;  
+    top: 1360px;
+    background: url("Muskmelon-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location9{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location10{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv3{ 
+    background-color:#4CAF50;
+   display: flex;
+    position: relative; 
+    top: 23px; 
+    
+    left:10px; 
+    gap: 15px;
+
+}  
+.name52{
+    position: relative; 
+    top:25px; 
+    left: 10%;
+    }
+.name53{
+    position: relative; 
+    top: -15px; 
+    left:130%; 
+    
+}
+.custom-button4 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:100px; 
+    left: 70px;
+  }
+  
+.price9 { 
+    text-align: left;
+    position: relative;
+    top: 170px;
+    display: flex;
+    gap: 10px;
+    left:-130px;
+  } 
+  .price10{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }
+   
+  
+  .card6{
+    position: relative;  
+    left: 70%;  
+    top: 1160px;
+    background: url("Papaya-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location11{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location12{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv5{ 
+    background-color:#4CAF50;
+   display: flex;
+    position: relative; 
+    top: 23px; 
+    
+    left:2px; 
+    gap: 15px;
+
+}  
+.name54{
+    position: relative; 
+    top:25px; 
+    left: 10%;
+    }
+.name55{
+    position: relative; 
+    top: -15px; 
+    left:130%; 
+    
+}
+.custom-button5 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:100px; 
+    left: 70px;
+  }
+  .shiv6{ 
+    background-color:#4CAF50;
+   display: flex;
+    position: relative; 
+    top: 23px; 
+    
+    left:2px; 
+    gap: 15px;
+
+}  
+.price11 { 
+    text-align: left;
+    position: relative;
+    top: 170px;
+    display: flex;
+    gap: 10px;
+    left:-115px;
+  } 
+  .price12{
+    color: red;
+  }
+  
+ .Vegitable{
+    position:absolute;  
+    left: 15%;   
+    top: 2600px;
+   
+
+ } 
+ .card7{
+    position: relative;  
+    left: 20%;  
+    top: 1470px;
+    background: url("khreera-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location13{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location14{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+
+.name56{
+    position: relative; 
+    top:-40px; 
+    left:-10%;
+    }
+
+.custom-button6 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:70px; 
+    left: 50px;
+  }
+  
+.price13 { 
+    text-align: left;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 10px;
+    left:-190px;
+  } 
+  .price14{
+    color: red;
+  }
+  
+ 
+ .card8{
+    position: relative;  
+    left: 45%;  
+    top: 1280px;
+    background: url("Potatoa-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location15{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location16{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+
+.name57{
+    position: relative; 
+    top:-40px; 
+    left:-30%;
+    }
+
+.custom-button6 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:70px; 
+    left: 70px;
+  }
+  
+.price15 { 
+    text-align: left;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 10px;
+    left:-115px;
+  } 
+  .price16{
+    color: red;
+  }
+  
+ .Vegitable{
+    position:absolute;  
+    left: 15%; 
+   
+
+ } 
+ .card9{
+    position: relative;  
+    left: 70%;  
+    top: 1080px;
+    background: url("Carlic-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location17{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location18{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+
+.name58{
+    position: relative; 
+    top:-40px; 
+    left:-30%;
+    }
+
+.custom-button7 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:70px; 
+    left: 70px;
+  }
+  
+.price17 { 
+    text-align: left;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 10px;
+    left:-115px;
+  } 
+  .price18{
+    color: red;
+  }
+  
+  .card10{
+    position: relative;  
+    left: 20%;  
+    top: 1250px;
+    background: url("Tomato-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location19{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location20{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+
+.name59{
+    position: relative; 
+    top:-40px; 
+    left:-30%;
+    }
+
+.custom-button8 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:70px; 
+    left: 70px;
+  }
+  
+.price19 { 
+    text-align: left;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 10px;
+    left:-115px;
+  } 
+  .price20{
+    color: red;
+  }
+  
+  .card11{
+    position: relative;  
+    left: 45%;  
+    top: 1050px;
+    background: url("Beens-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location21{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location22{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+
+.name60{
+    position: relative; 
+    top:-40px; 
+    left:-30%;
+    }
+
+.custom-button9 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:70px; 
+    left: 70px;
+  }
+  
+.price21 { 
+    text-align: left;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 10px;
+    left:-115px;
+  } 
+  .price22{
+    color: red;
+  }
+  
+
+  .card12{
+    position: relative;  
+    left: 70%;  
+    top: 850px;
+    background: url("Brinjal-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location23{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location24{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+
+.name61{
+    position: relative; 
+    top:-40px; 
+    left:-30%;
+    }
+
+.custom-button10 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:70px; 
+    left: 70px;
+  }
+  
+.price23 { 
+    text-align: left;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 10px;
+    left:-115px;
+  } 
+  .price24{
+    color: red;
+  }  
+  .Dry{
+    position: relative; 
+    left: 15%;  
+    top: 1050px;
+  }
+  
+  .card13{
+    position: relative;  
+    left: 20%;  
+    top: 1100px;
+    background: url("Bold-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location25{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location26{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+
+.name62{ 
+  
+ display: flex;
+  position: relative; 
+  top:-20px; 
+  
+  left:1px; 
+  gap: 15px; 
+}
+
+    .name63{
+      position: relative; 
+      top:-60px; 
+      left:110%;
+      }
+.custom-button11 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:70px; 
+    left: 70px;
+  }
+  
+.price25 { 
+    text-align: left;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 10px;
+    left:-150px;
+  } 
+  .price26{
+    color: red;
+  }   
+
+  .card14{
+    position: relative;  
+    left: 45%;  
+    top: 890px;
+    background: url("Wanut-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location27{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location28{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv7{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:30px; 
+    gap: 15px;
+
+}  
+.name64{
+    position: relative; 
+    top:-20px; 
+    left: 20%;
+    }
+
+.custom-button12 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price27{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-170px;
+  } 
+  .price28{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  } 
+   
+  .card15{
+    position: relative;  
+    left:70%;  
+    top: 700px;
+    background: url("Yellow-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location29{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location30{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv8{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}  
+.name65{
+    position: relative; 
+    top:-20px; 
+    left: 20%;
+    }
+
+.custom-button13 {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price29{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-150px;
+  } 
+  .price30{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }  
+ 
+
+  .card16{
+    position: relative;  
+    left:20%;  
+    top: 300px;
+    background: url("Seed-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location31{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location32{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv9{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}  
+.name66{
+    position: relative; 
+    top:-20px; 
+    left: 20%;
+    }
+    .name65{
+      position: relative; 
+      top:-20px; 
+      left: 10%;
+      }
+  
+.custom-button14{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price31{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-180px;
+  } 
+  .price32{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }   
+  .card17{
+    position: relative;  
+    left:45%;  
+    top: 680px;
+    background: url("Seeds1-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location33{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location34{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv10{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name67{
+  position: relative; 
+  top:-20px; 
+  left: 10%;
+  }
+
+.custom-button15{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price33{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-170px;
+  } 
+  .price34{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }  
+ 
+  .card16{
+    position: relative;  
+    left:20%;  
+    top: 880px;
+    background: url("Seed-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location31{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location32{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv9{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}  
+.name66{
+    position: relative; 
+    top:-20px; 
+    left: 20%;
+    }
+    .name65{
+      position: relative; 
+      top:-20px; 
+      left: 10%;
+      }
+  
+.custom-button14{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price31{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-180px;
+  } 
+  .price32{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }   
+  .card18{
+    position: relative;  
+    left:70%;  
+    top: 490px;
+    background: url("Dates-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location35{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location36{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv11{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name68{
+  position: relative; 
+  top:-20px; 
+  left: 20%;
+  }
+
+.custom-button16{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price35{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-120px;
+  } 
+  .price36{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }  
+  .Cold{
+    position: relative; 
+    top: 670px; 
+    left: 15%;
+  } 
+  .card19{
+    position: relative;  
+    left:20%;  
+    top: 750px;
+    background: url("Pressed-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location37{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location38{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv12{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name69{
+  position: relative; 
+  top:-20px; 
+  left: 20%;
+  }
+
+.custom-button17{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price37{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-150px;
+  } 
+  .price38{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }  
+  .card20{
+    position: relative;  
+    left:45%;  
+    top: 550px;
+    background: url("Softlower-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location39{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location40{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv13{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name70{
+  position: relative; 
+  top:-20px; 
+  left: 20%;
+  }
+
+.custom-button18{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price39{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-140px;
+  } 
+  .price40{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }  
+   
+  .card21{
+    position: relative;  
+    left:70%;  
+    top: 350px;
+    background: url("Smeens-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location41{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location42{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv14{ 
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: -15px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name71{
+  position: relative; 
+  top:-20px; 
+  left: 20%;
+  }
+
+.custom-button19{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:80px; 
+    left: 70px;
+  }
+  
+.price41{ 
+    text-align: left;
+    position: relative;
+    top: 140px;
+    display: flex;
+    gap: 10px;
+    left:-140px;
+  } 
+  .price42{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }   
+  .Natural{
+      position: relative; 
+      top: 510px; 
+      left: 15%;
+  } 
+  .card22{
+    position: relative;  
+    left:20%;  
+    top: 550px;
+    background: url("Tooth-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location43{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location44{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv15{  
+  background-color: #4CAF50;
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: 25px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name72{
+  position: relative; 
+  top:10px; 
+  left: 20%; 
+  gap: 5px;
+  }
+
+.custom-button20{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:100px; 
+    left: 70px;
+  }
+  
+.price43{ 
+    text-align: left;
+    position: relative;
+    top: 200px;
+    display: flex;
+    gap: 10px;
+    left:-120px;
+  } 
+  .price44{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }    
+  .prag{
+    position: relative; 
+     justify-content: center; 
+    align-items: center;
+    top: 200px; 
+    top: 700px; 
+    left:20%; 
+    font-size: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color:rgb(51, 0, 255); 
+    font-size: 20px;
+  }
+  .card23{
+    position: relative;  
+    left:45%;  
+    top: 250px;
+    background: url("Tooth1-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location45{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location46{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv16{  
+  background-color: #4CAF50;
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: 25px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name73{
+  position: relative; 
+  top:10px; 
+  left: 20%; 
+  gap: 5px;
+  }
+
+.custom-button21{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:100px; 
+    left: 70px;
+  }
+  
+.price45{ 
+    text-align: left;
+    position: relative;
+    top: 200px;
+    display: flex;
+    gap: 10px;
+    left:-120px;
+  } 
+  .price46{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }    
+  .prag1{
+    position: relative; 
+     justify-content: center; 
+    align-items: center;
+  
+    top: 400px; 
+    left:45%; 
+    font-size: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color:rgb(51, 0, 255); 
+    font-size: 20px;
+  }
+  .card24{
+    position: relative;  
+    left:70%;  
+    top: -40px;
+    background: url("Tooth2-png.jpeg"); 
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+      0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+      0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+      0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+    transform-style: preserve-3d;
+  }
+  
+  
+
+  .location47{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+} 
+.location48{
+    position:relative; 
+    top:120px;  
+    left: 10px; 
+    gap: 15px;
+   
+}   
+.shiv17{  
+  background-color: #4CAF50;
+  text-align: center;
+   display: flex;
+    position: relative; 
+    top: 25px; 
+    
+    left:20px; 
+    gap: 15px;
+
+}   
+.name74{
+  position: relative; 
+  top:10px; 
+  left: 20%; 
+  gap: 5px;
+  }
+
+.custom-button22{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    position: relative; 
+    top:100px; 
+    left: 70px;
+  }
+  
+.price47{ 
+    text-align: left;
+    position: relative;
+    top: 200px;
+    display: flex;
+    gap: 10px;
+    left:-120px;
+  } 
+  .price48{
+    color: red;
+  }
+  
+  .crossed1 {
+    text-decoration: line-through;
+    position: relative;
+   
+  }    
+  .prag2{
+    position: relative; 
+     justify-content: center; 
+    align-items: center;
+  
+    top: 100px; 
+    left:70%; 
+    font-size: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color:rgb(51, 0, 255); 
+    font-size: 20px;
+  }
+  .Graminum{
+    position: relative; 
+    top: 80px; 
+    left: 15%;
+}  
+.card25{
+  position: relative;  
+  left:20%;  
+  top: 100px;
+  background: url("Granium-png.jpeg"); 
+  background-size: contain;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 200px;
+  max-width: 200px;
+  box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+    0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+    0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+    0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+  transform-style: preserve-3d;
+}
+
+
+
+.location49{
+display: flex;
+gap: 8px;
+align-items: center;
+} 
+.location50{
+  position:relative; 
+  top:120px;  
+  left: 10px; 
+  gap: 15px;
+ 
+}   
+.shiv18{  
+
+
+ display: flex;
+  position: relative; 
+  top: -30px; 
+  
+  left:30px; 
+  gap: 15px;
+
+}   
+.name75{
+position: relative; 
+top:-40px; 
+left: 23%; 
+gap: 5px;
+}
+
+.custom-button23{
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  position: relative; 
+  top:80px; 
+  left: 70px;
+}
+
+.price49{ 
+  text-align: left;
+  position: relative;
+  top: 130px;
+  display: flex;
+  gap: 10px;
+  left:-160px;
+} 
+.price50{
+  color: red;
+}
+
+.crossed1 {
+  text-decoration: line-through;
+  position: relative;
+ 
+} 
+   
+.card26{
+  position: relative;  
+  left:45%;  
+  top: -100px;
+  background: url("Tooth3-png.jpeg"); 
+  background-size: contain;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 200px;
+  max-width: 200px;
+  box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+    0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+    0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+    0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+  transform-style: preserve-3d;
+}
+
+
+
+.location51{
+display: flex;
+gap: 8px;
+align-items: center;
+} 
+.location52{
+  position:relative; 
+  top:120px;  
+  left: 10px; 
+  gap: 15px;
+ 
+}   
+/* .shiv19{  
+
+
+ display: flex;
+  position: relative; 
+  top: -30px; 
+  
+  left:30px; 
+  gap: 15px;
+
+}    */
+.name76{
+position: relative; 
+top:-20px; 
+left: 23%; 
+gap: 5px;
+}
+
+.custom-button24{
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  position: relative; 
+  top:80px; 
+  left: 70px;
+}
+
+.price51{ 
+  text-align: left;
+  position: relative;
+  top: 140px;
+  display: flex;
+  gap: 10px;
+  left:-120px;
+} 
+.price52{
+  color: red;
+}
+
+.crossed1 {
+  text-decoration: line-through;
+  position: relative;
+ 
+} 
+.card27{
+  position: relative;  
+  left:70%;  
+  top: -300px;
+  background: url("Ajwan-png.jpeg"); 
+  background-size: contain;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 200px;
+  max-width: 200px;
+  box-shadow: 0px 0px 0px 0px rgba(4, 26, 47, 0.06),
+    0px 3px 6px 0px rgba(4, 26, 47, 0.06), 0px 12px 12px 0px rgba(4, 26, 47, 0.05),
+    0px 26px 16px 0px rgba(4, 26, 47, 0.03),
+    0px 47px 19px 0px rgba(4, 26, 47, 0.01), 0px 74px 21px 0px rgba(4, 26, 47, 0);
+  transform-style: preserve-3d;
+}
+
+
+
+.location53{
+display: flex;
+gap: 8px;
+align-items: center;
+} 
+.location54{
+  position:relative; 
+  top:120px;  
+  left: 10px; 
+  gap: 15px;
+ 
+}   
+.shiv21{  
+
+
+ display: flex;
+  position: relative; 
+  top: -8px; 
+  
+  left:30px; 
+  gap: 15px;
+
+}   
+.name77{
+position: relative; 
+top:-20px; 
+left: 23%; 
+gap: 5px;
+}
+
+.custom-button25{
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  position: relative; 
+  top:80px; 
+  left: 70px;
+}
+
+.price53{ 
+  text-align: left;
+  position: relative;
+  top: 140px;
+  display: flex;
+  gap: 10px;
+  left:-140px;
+} 
+.price54{
+  color: red;
+}
+
+.crossed1 {
+  text-decoration: line-through;
+  position: relative;
+ 
+}  
+
+.center4-container{ 
+  display: flex;
+width: 1512px;
+height: 476px;
+padding: 0px 50px;
+flex-direction: column;
+align-items: center;  
+position: relative; 
+
+
+/* background-color: rgba(89, 122, 207, 1); */
+/* background-color: rgba(156, 163, 175, 1);
+background-color: rgba(107, 114, 128, 1);
+background-color: rgba(107, 114, 128, 1); 
+
+/* background-color: hsla(220, 9%, 46%, 1); */ 
+
+background: var(--neutral-100, #eae6e6);
+display: flex;
+padding: 64px 32px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch; 
+
+position: relative; 
+top: -100px;
+ } 
+ .grid4-container{ 
+ display: flex;
+
+  /* Body/Regular */
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  gap: 32px;
+  
+ } 
+ .option4{ 
+  display: flex;
+width: 198px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+align-self: stretch;
+ }
+ .option5{ 
+  display: flex;
+width: 198px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+align-self: stretch;
+ }
+ .option4{ 
+  display: flex;
+width: 198px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+align-self: stretch;
+ }
+ .option5{ 
+  display: flex;
+width: 198px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+align-self: stretch;
+ }
+ .option6{ 
+  display: flex;
+width: 198px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+align-self: stretch;
+ } 
+ .option7{ 
+  display: flex;
+width: 198px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+align-self: stretch;
+ } 
+ .sky1,.Sky6,.Sky11,.Sky16{ 
+  display: flex;
+flex-direction: column;
+align-self: stretch; 
+color: var(--neutral-800, #1F2937);
+
+/* Caption/Caps */
+font-size: 13px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.78px;
+text-transform: uppercase; 
+color: hsla(215, 28%, 17%, 1);
+ }
+.option4{ 
+  color: var(--neutral-500, #6B7280);
+
+/* Body/Regular */
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+} 
+.option5{ 
+  color: var(--neutral-500, #6B7280);
+
+/* Body/Regular */
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+} 
+.option6{ 
+  color: var(--neutral-500, #6B7280);
+
+/* Body/Regular */
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.option7{ 
+  color: var(--neutral-500, #6B7280);
+
+/* Body/Regular */
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.Sky19{ 
+  display: flex;
+flex-direction: column;
+align-self: stretch; 
+color: var(--neutral-800, #1F2937);
+
+/* Caption/Caps */
+font-size: 13px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.78px;
+text-transform: uppercase; 
+color: hsla(215, 28%, 17%, 1);
+}
+.option8{ 
+  display: flex;
+flex-direction: column;
+align-self: stretch; 
+color: var(--neutral-500, #6B7280);
+
+/* Body/Regular */
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+} 
+.Labeld {
+  display: flex;
+ 
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 6px;
+  border: 1px solid var(--neutral-400, #9CA3AF);
+  position: relative; 
+  height: 55px;
+ width: 20%; 
+ left: 65%; 
+ top: -400px; 
+ display: flex;
+padding: 9px 17px;
+justify-content: center;
+align-items: center;
+
+}
+.emailInput{ 
+  color: var(--neutral-400, #9CA3AF);
+
+/* Body/Regular */
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+} 
+.button1{ 
+  display: flex;
+padding: 9px 17px;
+justify-content: center;
+align-items: center; 
+border-radius: 6px;
+background: var(--blue-500, #597ACF); 
+position: relative; 
+left: 63%;
+} 
+.button1 span{ 
+  color: white;
+} 
+.strength-line{ 
+  position: relative; 
+  left: 2%; 
+  height: 30px; 
+  top: -260px;
+} 
+footer {
+  position: absolute;
+top: 855%;
+  left:  2%; 
+  
+}
+
+.footer-icons{ 
+  position: relative; 
+  text-align: left; 
+  left: 0;
+} 
+.footer1{ 
+  display: flex;
+align-items: center;
+gap: 24px;  
+
+} 
+.footer-icon1{  
+  position:absolute;  
+  display: flex;
+  top: 855%;
+left: 80%; 
+gap: 24px;
+width: 24%;
+height: 24px;
+
+ 
+} 
+.Shi13{
+  display: flex;
+height: 40px;
+align-items: center;
+gap: 6.25px; 
+position: relative; 
+text-align: left; 
+ 
+right: 60%;
+
+}
+   
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+   
+  
+  
+  
+  
+  
+  
+  
+  

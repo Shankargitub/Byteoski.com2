@@ -1,0 +1,139 @@
+*{
+    margin: 0%; 
+    padding: 0; 
+    box-sizing: border-box; 
+
+} 
+body{
+    /* background-color: black; */
+}  
+.first{
+    width: 1033px;
+height: 662px; 
+/* background: #0e0c0c; 
+background: #222222; */  
+background-color: #000000e1;   
+position: relative;
+left: 20%;  
+margin-top: 10%;
+
+
+/* Shadow-xl */
+ 
+}  
+.second{
+    width: 422px;
+height: 889px;
+flex-shrink: 0; 
+border-radius: 16px;
+border: 3px solid #000;
+background: #222;
+
+/* Shadow-xl */
+box-shadow: 8px 8px 0px 0px #000;  
+position: relative;  
+top: 30px;
+left: 5%; 
+height: 600px;
+}  
+.third{
+    width: 51.453px;
+height: 28.527px;
+flex-shrink: 0; 
+stroke-width: 2px;
+stroke: #FFF; 
+position: relative; 
+top: 3%; 
+left: 3%;
+} 
+.fourth{
+    width: 380px;
+height: 157px;
+flex-shrink: 0; 
+border-radius: 16px;
+border: 3px solid #000;
+background: #222;
+
+/* Shadow-xl */
+box-shadow: 8px 8px 0px 0px #000; 
+position: relative; 
+top: 19px;  
+display: flex;
+} 
+.para{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+color: #FFFFFF;  
+position: relative; 
+left: 10px; 
+top: 10px;
+}
+.para1{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;  
+position: relative; 
+top: 10px; 
+left: 30px;
+}  
+.para2{
+    width: 114px;
+flex-shrink: 0;
+align-self: stretch; 
+color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal; 
+display: flex;
+width: 127px;
+height: 45px;
+padding: 8px; 
+text-align: center;
+align-items: center;
+justify-content: flex-start;
+gap: 8px;
+flex-shrink: 0; 
+border-radius: 12px;
+background: #965DDD; 
+position: relative; 
+top: 10px; 
+left: 90px;
+} 
+.para3{
+    width: 344px;
+height: 38px;
+flex-shrink: 0; 
+border-radius: 12px;
+background: #FFF; 
+position: relative; 
+top: -40px; 
+right: -20px; 
+color: #965DDD;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+text-align: center;
+align-items: center;
+
+
+}  
+.para4{
+    width: 344px;
+    height: 38px;
+    flex-shrink: 0; 
+    border-radius: 12px;
+border: 3px solid #000;
+background: #FFF;
+
+}  
