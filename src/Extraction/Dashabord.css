@@ -5,17 +5,19 @@
 
 } 
 body{
-    /* background-color: black; */
+    /* background-color: black; */ 
+    
 }  
 .first{
-    width: 1033px;
-height: 662px; 
+    width: 1933px;
+    height: 982px;
 /* background: #0e0c0c; 
 background: #222222; */  
 background-color: #000000e1;   
-position: relative;
-left: 20%;  
-margin-top: 10%;
+position: relative; 
+margin-top: 0%;
+ 
+
 
 
 /* Shadow-xl */
@@ -23,28 +25,33 @@ margin-top: 10%;
 }  
 .second{
     width: 422px;
-height: 889px;
-flex-shrink: 0; 
+height: 680px;
+flex-shrink: 0;
 border-radius: 16px;
 border: 3px solid #000;
 background: #222;
 
 /* Shadow-xl */
 box-shadow: 8px 8px 0px 0px #000;  
-position: relative;  
-top: 30px;
+position: absolute;   
 left: 5%; 
-height: 600px;
+top: 3%; 
+margin-bottom: 0;
+
+
+
 }  
 .third{
     width: 51.453px;
-height: 28.527px;
-flex-shrink: 0; 
+    height: 20.527px;
+    flex-shrink: 0;
+
 stroke-width: 2px;
 stroke: #FFF; 
 position: relative; 
 top: 3%; 
-left: 3%;
+left: 3%; 
+
 } 
 .fourth{
     width: 380px;
@@ -106,15 +113,20 @@ border-radius: 12px;
 background: #965DDD; 
 position: relative; 
 top: 10px; 
-left: 90px;
-} 
-.para3{
+left: 100px;
+}  
+.para2 span{
+    position: relative; 
+    left:10px
+}
+.para15{
     width: 344px;
 height: 38px;
 flex-shrink: 0; 
 border-radius: 12px;
 background: #FFF; 
-position: relative; 
+position: relative;  
+text-align: center;
 top: -40px; 
 right: -20px; 
 color: #965DDD;
@@ -123,17 +135,386 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal; 
-text-align: center;
-align-items: center;
+
+position: relative; 
+top: -40px;
 
 
-}  
-.para4{
+}     
+.para3{
+   position: relative; 
+   top: 5px;
+}
+.para5{
     width: 344px;
-    height: 38px;
-    flex-shrink: 0; 
-    border-radius: 12px;
+height: 38px;
+flex-shrink: 0; 
+border-radius: 12px;
 border: 3px solid #000;
-background: #FFF;
+background: #FFF; 
+position: relative; 
+top: 37%; 
+left: 10px;
+} 
+.email{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    position: relative; 
+    left: 5%; 
+    text-align: center; 
+    align-items: center; 
+    width: fixed(125px); 
+    height: fixed(29px); 
+    top: 3px;
+}  
+.para6{
+   
+    width: 14px;
+height: 7px;
+flex-shrink: 0; 
+stroke-width: 2px;
+stroke: #000; 
+position: relative; 
+left: 200px;
+
+}
+.para7{
+    width: 344px;
+height: 38px;
+flex-shrink: 0; 
+border-radius: 12px;
+border: 3px solid #000;
+background: #FFF; 
+position: relative; 
+top: 40%; 
+left: 10px;
+} 
+.email1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    position: relative; 
+    left: 5%; 
+    text-align: center; 
+    align-items: center; 
+    width: fixed(125px); 
+    height: fixed(29px); 
+    top: 3px;
+}  
+.para8{
+   
+    width: 14px;
+height: 7px;
+flex-shrink: 0; 
+stroke-width: 2px;
+stroke: #000; 
+position: relative; 
+left: 155px;
+
+}
+.para9{
+    width: 344px;
+height: 38px;
+flex-shrink: 0; 
+border-radius: 12px;
+border: 3px solid #000;
+background: #FFF; 
+position: relative; 
+top: 43%; 
+left: 10px;
+} 
+.email2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    position: relative; 
+    left: 5%; 
+    text-align: center; 
+    align-items: center; 
+    width: fixed(125px); 
+    height: fixed(29px); 
+    top: 3px;
+}  
+.para10{
+   
+    width: 14px;
+height: 7px;
+flex-shrink: 0; 
+stroke-width: 2px;
+stroke: #000; 
+position: relative; 
+left: 190px;
+
+}
+.para11{
+    width: 344px;
+height: 38px;
+flex-shrink: 0; 
+border-radius: 12px;
+border: 3px solid #000;
+background: #FFF; 
+position: relative; 
+top: 46%; 
+left: 10px;
+} 
+.email3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    position: relative; 
+    left: 5%; 
+    text-align: center; 
+    align-items: center; 
+    width: fixed(125px); 
+    height: fixed(29px); 
+    top: 3px;
+}  
+.para12{
+   
+    width: 14px;
+height: 7px;
+flex-shrink: 0; 
+stroke-width: 2px;
+stroke: #000; 
+position: relative; 
+left: 190px;
 
 }  
+.para13{
+    width: 344px;
+height: 38px;
+flex-shrink: 0; 
+border-radius: 12px;
+border: 3px solid #000;
+background: #FFF; 
+position: relative; 
+top: 49%; 
+left: 10px;
+} 
+.email4{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    position: relative; 
+    left: 5%; 
+    text-align: center; 
+    align-items: center; 
+    width: fixed(125px); 
+    height: fixed(29px); 
+    top: 3px;
+}  
+.para14{
+   
+    width: 14px;
+height: 7px;
+flex-shrink: 0; 
+stroke-width: 2px;
+stroke: #000; 
+position: relative; 
+left: 190px;
+
+} 
+
+
+.email5{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    position: relative; 
+    left: 5%; 
+    text-align: center; 
+    align-items: center; 
+    width: fixed(125px); 
+    height: fixed(29px); 
+    top: 3px;
+}  
+.para16{
+   
+    width: 14px;
+height: 7px;
+flex-shrink: 0; 
+stroke-width: 2px;
+stroke: #000; 
+position: relative; 
+left: 190px;
+
+} 
+.para18{
+    display: flex;
+width: 850px;
+height: 59px;
+padding: 16px 23px 16px 16px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0; 
+border-radius: 16px;
+border: 3px solid #000;
+background: #333;
+
+/* Shadow-xl */
+box-shadow: 8px 8px 0px 0px #000; 
+position: relative; 
+left: 110%;  
+top: -210px;  
+
+flex-shrink: 0; 
+color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;   
+
+position: relative;  
+
+
+}
+ .email6{ 
+    position: relative;   
+    left: 10px;  
+} 
+.man-png
+{
+    width: 40px;
+height: 40px;
+flex-shrink: 0; 
+
+background-size: 50%;
+position: relative; 
+left: 450%;
+} 
+.para19{
+    display: flex;
+width: 600px;
+height: 59px;
+padding: 16px 23px 16px 16px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0; 
+border-radius: 16px;
+border: 3px solid #000;
+background: #333;
+
+/* Shadow-xl */
+box-shadow: 8px 8px 0px 0px #000; 
+position: relative; 
+left: 110%;  
+top: -190px;  
+
+flex-shrink: 0; 
+color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;   
+
+position: relative;  
+
+
+}
+ .email7{ 
+    position: relative;   
+    left: 10px;  
+    top: 35px; 
+}  
+.para20{
+    display: flex;
+width: 210px;
+padding: 16px 23px 16px 16px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0; 
+position: relative; 
+left: 290%; 
+border-radius: 16px;
+border: 3px solid #000;
+background: #965DDD;
+
+/* Shadow-xl */
+box-shadow: 8px 8px 0px 0px #000; 
+top: -50px; 
+justify-content: center;
+} 
+.para20 span{
+  
+    width: 102px;
+height: 29px;
+flex-shrink: 0; 
+color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+} 
+.para21{
+    width: 870px;
+height: 520px;
+flex-shrink: 0; 
+border-radius: 16px;
+background: #D9D9D9; 
+position: relative; 
+left: 470px;
+bottom: 170px;
+} 
+.para22{
+    display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+} 
+.para23{
+    width: 877px; 
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+position: relative; 
+top: 180px;
+} 
+.para23 span{
+    color: #965DDD;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+gap: 16px;
+} 
+.para24{ 
+    width: 767px; 
+    color: #736F6F;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+position: relative; 
+top: 170px;
+
+}

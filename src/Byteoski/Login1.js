@@ -18,7 +18,7 @@ export const Login1 = () => {
               <div className="form-group"> 
              
                 <label className="Email">
-                <i class="zmdi zmdi-email"></i>Your Email
+                <i class="zmdi zmdi-email"></i>Your Email 
                 
                 </label>
               </div>
